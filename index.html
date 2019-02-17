@@ -12,7 +12,7 @@
                 text-align: center;
                 vertical-align: center;
                 font-family: monospace;
-                font-size: 18px;
+                font-size: 14;
                 position: relative;
             }
 
@@ -30,10 +30,19 @@
                 height: 10px;
                 border: 0;
             }
+            #fireCanvas {
+                margin: 10px;
+            }
+            margin {
+                margin: 5px;
+            }
         </style>
     </head>
     <body>
         <div id="fireCanvas"></div>
         <script src="fire.js"></script>
+        <div class="margin">
+            <button onclick="setDebug()">Debug</button>
+        </div>
     </body>
 </html>
